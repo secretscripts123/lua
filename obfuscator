@@ -15,7 +15,7 @@ function obfuscate(source,VarName,WaterMark)
         if typeof(WaterMark) == "string" and WaterMark ~= nil then
             WM = "    "..tostring(WaterMark).." | Secure by Yuji Obfuscator"
         else
-            WM = "    ".."WaterMark".." | Secure by Yuji Obfuscator"
+            WM = "    ".."WaterMark".." | Secure by Obito Obfuscator"
         end
 
         WM = "--[[".."\n".. tostring(WM) .."\n".."]]--".."\n\n"
